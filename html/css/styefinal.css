@@ -1,0 +1,316 @@
+/* CSS Document */
+.wrapper{
+	background: #0C0C06;
+}
+.wrapper a{
+	
+	text-decoration: none;
+}
+.header-top{
+	position: absolute;
+	width: 100%;
+	z-index: 10000;
+
+}
+.logo{
+	font-size:50px;
+	font-family: 'Playfair Display', serif;
+	margin-left: 5px ;
+
+}
+.logo a{
+	color: white;
+	
+}
+.logo a:hover{
+	color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.nav ul{
+	list-style: none;
+		
+}
+.nav li{
+	margin: 0 24px;
+}
+.nav li a{
+	color: white;
+	font-size: 15px;
+	font-family: 'Merriweather', serif;
+}
+.nav li a:hover{
+	color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.baner{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.baner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+
+}
+.tophead{
+	opacity: 35%;
+	background: #000000;
+	height: 90px;
+}
+.content{
+	position: absolute;
+	right: 0px;
+	top:85%;
+	padding: 10px;
+	opacity: 35%;
+	font-size: 15px; 
+	color: #E7DCDC;
+	z-index: 100000;
+}
+.baner1{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	background-attachment:fixed;
+
+	
+}
+.baner1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 97%;
+	padding-top: 25px
+	
+}
+
+.content2{
+	position: absolute;
+	top: 165%;
+	left: 50%;
+	transform: translate(-50%,-165%);
+	text-align: center;
+	opacity: 60%;
+	pading: 40px 80px;
+	background:#F4B354;
+	margin: 20px;
+	z-index: 1000;
+	
+}
+.content2 p{
+	margin-bottom: 20px;
+	color: black;
+	
+}
+.btn{
+	background: rgba(183,135,71,1.00);
+	text-decoration: none;
+	padding: 8px 32px;
+	color: black;
+	font-family: 'Merriweather', serif;
+
+}
+.btn:hover{
+	color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.content2 h1{
+	color:black;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-family: 'Merriweather', serif;
+
+}
+
+
+/*baner*/
+.Items{
+	padding: 132px 0;
+}
+
+.Items h1{
+	text-align: center;
+	margin-bottom: 32px;
+	font-family: 'Merriweather', serif;
+	color: aliceblue;
+
+}
+.Items h1:hover{
+	color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.card{
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 4px 25px rgba(192,192,192,0.3);
+	background: #CEC7C7;
+}
+.feature img{
+	width: 100%;
+}
+.feature{
+	height: 285px;
+	overflow: hidden;
+}
+.content3{
+	padding: 10px 20px;
+	z-index: 1000;
+	opacity: 80%;
+}
+.content3 p{
+	margin: 16px 0;
+	color: black;
+	font-family: 'Playfair Display', serif;
+	font-size: 13.5px;
+
+}
+.content3 h2{
+	color: black;
+	font-family: 'Merriweather', serif;
+
+}
+.t-card span{
+	color: black;
+	font-size: 25px;
+	
+}
+.add a{
+	color:aliceblue;
+	padding: 5px 5px;
+	background: black;
+	font-size: 17px;
+	font-family: 'Merriweather', serif;
+}
+/*items*/
+
+.station2{
+	height:100vh;
+	background: url("../../img-final/Fashion Video Projects _ Photos, videos, logos, illustrations and branding on Behance_files/5dd07a148221519.62d15c9aa398d.jpg");
+	background-size: cover;
+	opacity: 77%;
+	background-attachment: fixed;
+}
+.station1{
+	padding: 100px 80px;
+	background-attachment: fixed;
+	color: aliceblue;
+
+}
+.station1 h1{
+	text-align: center;
+	margin-bottom: 12px;
+}
+.station3{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+
+}
+.bg2{
+	background: url("../../img-final/Fashion Video Projects _ Photos, videos, logos, illustrations and branding on Behance_files/6d8474148221519.62d15c9eb8e40.jpg");
+}
+.bg1{
+	background: url("../../img-final/Fashion Video Projects _ Photos, videos, logos, illustrations and branding on Behance_files/39e71e148221519.62d15c99c25b6.jpg");
+}
+.station4{
+	padding: 100px 80px;
+	color: aliceblue;
+	background-attachment: fixed;
+	padding-bottom: 100px;
+	text-align: center;
+
+}
+/*station*/
+
+.contenctend{
+	
+	padding: 15px;
+	opacity: 35%;
+	font-size: 8px; 
+	color: #E7DCDC;
+	z-index: 100000;
+	text-align: center;
+	
+	
+}
+.contenctend h1{
+	margin-bottom: 2px;
+	padding: 5px;
+	font-family: 'Merriweather', serif;
+
+}
+.contenctend p{
+	margin-bottom: 10px;
+	color:aliceblue;
+}
+.contenctend a{
+	color:aliceblue;
+	padding: 5px 5px;
+	font-size: 11px;
+	margin-bottom: 50px;
+	
+}
+.u{
+	height: 10px;
+}
+.cardend{
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 4px 25px rgba(83,83,83,1);
+	
+}
+.featureend img{
+	width: 100%;
+}
+.featureend{
+	height: 70vh;
+	overflow: hidden;
+}
+.contentend1{
+	padding: 10px 20px;
+	z-index: 1000;
+	opacity: 80%;
+}
+.contentend1 p{
+	margin: 16px 0;
+	color:black;
+	font-family: 'Playfair Display', serif;
+	font-size: 13.5px;
+
+	
+}
+.contentend1 h2{
+	color:black;
+	font-family: 'Merriweather', serif;
+
+}
+.t-cardend span{
+	color: black;
+	font-size: 25px;
+	
+}
+.addend a{
+	color: aliceblue;
+	
+	font-size: 17px;
+	font-family: 'Merriweather', serif;
+}
+.station2 h1{
+	color: aliceblue;
+}
+.station2 p{
+	color:black;
+}
+.station2 span{
+	color: aliceblue;
+}
+
+
